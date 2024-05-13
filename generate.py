@@ -22,7 +22,7 @@ def generate():
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
         script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js")
         script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js")
-
+        
     with doc.body:
         script(type="text/javascript", src="{{ url_for('static', filename='js/script.js') }}")
         with div(cls="main-app"):
@@ -52,9 +52,14 @@ def generate():
                             div(description["offcanvas-title"], cls="offcanvas-title", id="offcanvas-title")
 
                         with div(cls="offcanvas-body"):
+                            if description["allow-volume-setting"]:
+                                with div(cls="row",id="volume-container"):
+                                    div(description["volume-setting"],cls="col",id="volume-setting")
+                                    with div(cls="col volume-control"):
+                                        input_(type="range",cls="styled-slider slider-progress",id="volumeRange",min="0",max="150",value="100")
                             with div(cls="options"):
                                 input_(cls="repeat-check",type="checkbox", value="", id="flexCheckChecked",checked="")
-                                label(description["voice_pause"],cls="form-check-label",_for="flexCheckChecked",id="voice_pause")
+                                label(description["voice-pause"],cls="form-check-label",_for="flexCheckChecked",id="voice-pause")
                             with ul(cls="navbar-nav flex-grow-1 pe-3",id="links"):
                                 with li(cls="nav-item"):
                                     for site_id,site_info in description["links"].items():
