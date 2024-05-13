@@ -1,6 +1,7 @@
 {
     "zh_TW": "繁體中文",
-    "voice_pause": "暫停播放中的語音",
+    "volume-setting": "音量",
+    "voice-pause": "暫停播放中的語音",
     "title": "ゆるち按鈕 YURUCHI_BUTTON",
     "site-title": "ゆるち按鈕",
     "offcanvas-title": "ゆるち按鈕",
@@ -24,7 +25,9 @@
     "category_11": "生氣表演",
     "category_10": "ＩＱ３",
     "category_1": "可愛",
+    "allow-volume-setting": true,
     "Youtube": "Youtube",
+    "NUINO_BUTTON": "ぬいのボタン NUINO_BUTTON",
     "Unofficial_wiki": "非公式wiki",
     "UNiVIRTUAL": "UNiVIRTUAL",
     "Twitter": "Twitter",

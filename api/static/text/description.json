@@ -8,12 +8,15 @@
         "ja":"日本語",
         "zh_TW":"繁體中文"
     },
-    "voice_pause":"前の音声再生を停止",
+    "allow-volume-setting":true,
+    "volume-setting":"音量",
+    "voice-pause":"前の音声再生を停止",
     "links":{
         "Youtube":["Youtube","https://www.youtube.com/@Chiyuru_Mikazuki"],
         "Twitter":["Twitter","https://twitter.com/Chiyuru_nyaaaa"],
         "UNiVIRTUAL":["UNiVIRTUAL","https://univirtual.jp/"],
-        "Unofficial_wiki":["非公式wiki","https://seesaawiki.jp/univirtual_fan/d/%bb%b0%c6%fc%b7%ee%a4%c1%a4%e6%a4%eb"]
+        "Unofficial_wiki":["非公式wiki","https://seesaawiki.jp/univirtual_fan/d/%bb%b0%c6%fc%b7%ee%a4%c1%a4%e6%a4%eb"],
+        "NUINO_BUTTON":["ぬいのボタン NUINO_BUTTON","https://nuino-button.vercel.app/"]
     },
     "footer_left":"サイト制作：kira\n音声編集/協力のごちゅじんさん（敬称略）：MIHARU、Red Herrin、シスコン軍曹、とーくん、とろみぃ、ノブ、\nらうーる、青狸、真顔のひこ、三日月鮮魚店、三三\nサイト原作（敬称略）：やまかぜ",
     "source":{

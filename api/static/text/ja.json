@@ -1,6 +1,7 @@
 {
     "zh_TW": "繁體中文",
-    "voice_pause": "前の音声再生を停止",
+    "volume-setting": "音量",
+    "voice-pause": "前の音声再生を停止",
     "title": "ゆるちボタン YURUCHI_BUTTON",
     "site-title": "ゆるちボタン",
     "offcanvas-title": "ゆるちボタン",
@@ -24,7 +25,9 @@
     "category_11": "キレ芸",
     "category_10": "ＩＱ３",
     "category_1": "かわいい",
+    "allow-volume-setting": true,
     "Youtube": "Youtube",
+    "NUINO_BUTTON": "ぬいのボタン NUINO_BUTTON",
     "Unofficial_wiki": "非公式wiki",
     "UNiVIRTUAL": "UNiVIRTUAL",
     "Twitter": "Twitter",
