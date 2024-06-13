@@ -1,7 +1,7 @@
 import add_json
 import generate
 
-category = 'キレ芸'
-button_name = 'やってられっかこんな配信！おつちゅっちゅるゥ'
+category = 'その他'
+button_name = 'ナインメンズモリスやりましょう'
 add_json.update_json_data(category, button_name)
 generate.generate()
