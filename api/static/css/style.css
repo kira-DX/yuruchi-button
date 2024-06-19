@@ -155,10 +155,16 @@ input[type=range].styled-slider.slider-progress:active::-webkit-slider-runnable-
 }
 
 .cate-body button {
+    position: relative;
     background-color: #DC3545;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
+}
+
+.cate-body .content {
+    position: relative;
+    z-index: 2; /* Ensure content is above the progress bar */
 }
 
 .cate-body button:hover {
@@ -172,7 +178,20 @@ input[type=range].styled-slider.slider-progress:active::-webkit-slider-runnable-
 .cate-body button:focus {
     background: #d93848;
 }
-
+.cate-body .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure progress bar is behind the content */
+    background-color: #eb5d85;
+}
+.cate-body .progress-bar {
+    height: 100%;
+    background-color: #d93848; /* Single color for the progress bar */
+    transition: width 0.1s linear; /* Smooth transition for width change */
+}
 .main-app {
     display: flex;
     flex-direction: column;
