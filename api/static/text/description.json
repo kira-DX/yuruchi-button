@@ -11,6 +11,7 @@
     "allow-volume-setting":true,
     "volume-setting":"音量",
     "voice-pause":"前の音声再生を停止",
+    "echo-effect":"エコー",
     "links":{
         "Youtube":["Youtube","https://www.youtube.com/@Chiyuru_Mikazuki"],
         "Twitter":["Twitter","https://twitter.com/Chiyuru_nyaaaa"],
