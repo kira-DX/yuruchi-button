@@ -1,7 +1,6 @@
-import add_json
-import generate
+import develope
 
-category = '名言'
-button_name = 'すいません…お手すきの際に'
-add_json.update_json_data(category, button_name)
-generate.generate()
+# develope.add_audio('その他','test.mp3')
+develope.del_audio('その他','test')
+# develope.change_audio('その他','test','test2.mp3')
+# init_lang_file()

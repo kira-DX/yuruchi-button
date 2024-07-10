@@ -1,6 +1,4 @@
-.vercel
-api/static/text/description.txt
-api/static/temp_audio
 __pycache__
-listener's voice
-text.html
+.vercel
+.vscode
+vercel.json
