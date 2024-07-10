@@ -15,7 +15,7 @@ label {
     user-select: none;
 }
 .navbar{
-    background-color: #333;
+    background-color: #9f6e71;
 }
 
 .dropdown-menu{
@@ -34,7 +34,7 @@ label {
 }
 
 .offcanvas-header,.offcanvas-body,.offcanvas-title{
-    background-color: #333;
+    background-color: #4f3738;
 }
 
 #SidebarLabel{
@@ -45,7 +45,7 @@ label {
     padding-bottom: 10px;
 }
 .category_area {
-    background-color: #FFED91;
+    background-color: #fdb5cd;
     text-align: center;
     border-radius: 15px;
     font-size: 25px;
@@ -249,7 +249,7 @@ input[type=range].styled-slider.slider-progress:active::-webkit-slider-runnable-
 }
 .cate-body button{
     position: relative;
-    background-color: #DC3545;
+    background-color: #eb5d85;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
